@@ -2,17 +2,14 @@ Package: g6dogma
 Type: Package
 Title: g6dogma
 Version: 0.1.0
-Author: Authors@R: c(
+Authors@R: c(
     person(given = "Arne", family = "Hellhund", email = "hellhundarne@gmail.com", role = c("aut", "cre")),
-    person(given = "Second", family = "Author", email = "second.author@example.com", role = "aut"),
-    person(given = "Second", family = "Author", email = "second.author@example.com", role = "aut"),
-    person(given = "Second", family = "Author", email = "second.author@example.com", role = "aut"),
-    person(given = "Second", family = "Author", email = "second.author@example.com", role = "aut"),
-)
+    person(given = "Second", family = "Author", email = "second.author@example.com", role = "aut"))
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-
+Depends: 
+    R (>= 2.10)
