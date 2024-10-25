@@ -2,20 +2,13 @@ Package: g6dogma
 Type: Package
 Title: g6dogma
 Version: 0.1.0
-Author:    Authors@R:
-  c(person(given = "Arne",
-           family = "Hellhund",
-           role = c("aut", "cre"), # There must be a "cre", but there can only be one
-           email = "arnhell@dtu.dk"), 
-    person(given = "firstname",
-           family = "lastname",
-           role = "aut",
-           email = "your@email.com"))
-
-        
-           
-
-
+Author: Authors@R: c(
+    person(given = "Arne", family = "Hellhund", email = "hellhundarne@gmail.com", role = c("aut", "cre")),
+    person(given = "Second", family = "Author", email = "second.author@example.com", role = "aut"),
+    person(given = "Second", family = "Author", email = "second.author@example.com", role = "aut"),
+    person(given = "Second", family = "Author", email = "second.author@example.com", role = "aut"),
+    person(given = "Second", family = "Author", email = "second.author@example.com", role = "aut"),
+)
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
